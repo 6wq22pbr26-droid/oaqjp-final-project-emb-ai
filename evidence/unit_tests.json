@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "unittest",
+    "-v",
+    "test_emotion_detection.py"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_empty_text (test_emotion_detection.TestEmotionDetection)\nInvalid text should produce None values, not invented scores. ... ok\ntest_required_emotions (test_emotion_detection.TestEmotionDetection)\nThe Watson endpoint should identify each required emotion. ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.699s\n\nOK\n"
+}

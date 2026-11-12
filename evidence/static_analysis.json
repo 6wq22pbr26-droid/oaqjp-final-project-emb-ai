@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "pylint",
+    "server.py"
+  ],
+  "exit_code": 0,
+  "stdout": "\n------------------------------------\nYour code has been rated at 10.00/10\n\n",
+  "stderr": ""
+}

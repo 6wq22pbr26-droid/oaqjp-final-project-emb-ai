@@ -1,0 +1,10 @@
+{
+  "command": [
+    "git",
+    "remote",
+    "-v"
+  ],
+  "exit_code": 0,
+  "stdout": "origin\thttps://github.com/6wq22pbr26-droid/oaqjp-final-project-emb-ai.git (fetch)\norigin\thttps://github.com/6wq22pbr26-droid/oaqjp-final-project-emb-ai.git (push)\n",
+  "stderr": ""
+}

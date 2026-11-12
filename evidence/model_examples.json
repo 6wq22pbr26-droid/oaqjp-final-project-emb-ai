@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-c",
+    "from EmotionDetection import emotion_detector; import json; samples=['I love this new technology.','I am so happy I am doing this','I hate working long hours','I think I am having fun','']; print(json.dumps({s:emotion_detector(s) for s in samples},indent=2))"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"I love this new technology.\": {\n    \"anger\": 0.01364663,\n    \"disgust\": 0.0017160787,\n    \"fear\": 0.008986978,\n    \"joy\": 0.9719017,\n    \"sadness\": 0.055187024,\n    \"dominant_emotion\": \"joy\"\n  },\n  \"I am so happy I am doing this\": {\n    \"anger\": 0.0043079085,\n    \"disgust\": 0.00041127237,\n    \"fear\": 0.0037504788,\n    \"joy\": 0.9918804,\n    \"sadness\": 0.014091322,\n    \"dominant_emotion\": \"joy\"\n  },\n  \"I hate working long hours\": {\n    \"anger\": 0.64949876,\n    \"disgust\": 0.03718168,\n    \"fear\": 0.05612277,\n    \"joy\": 0.00862553,\n    \"sadness\": 0.1955148,\n    \"dominant_emotion\": \"anger\"\n  },\n  \"I think I am having fun\": {\n    \"anger\": 0.029103195,\n    \"disgust\": 0.0067921067,\n    \"fear\": 0.027528232,\n    \"joy\": 0.876574,\n    \"sadness\": 0.06151191,\n    \"dominant_emotion\": \"joy\"\n  },\n  \"\": {\n    \"anger\": null,\n    \"disgust\": null,\n    \"fear\": null,\n    \"joy\": null,\n    \"sadness\": null,\n    \"dominant_emotion\": null\n  }\n}\n",
+  "stderr": ""
+}

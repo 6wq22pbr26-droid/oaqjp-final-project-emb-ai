@@ -1,0 +1,12 @@
+$ /usr/bin/python3 -m unittest -v test_emotion_detection.py
+test_empty_text (test_emotion_detection.TestEmotionDetection)
+Invalid text should produce None values, not invented scores. ... ok
+test_required_emotions (test_emotion_detection.TestEmotionDetection)
+The Watson endpoint should identify each required emotion. ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.699s
+
+OK
+
+Exit code: 0
