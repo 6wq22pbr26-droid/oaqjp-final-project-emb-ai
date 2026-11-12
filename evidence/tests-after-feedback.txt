@@ -1,0 +1,15 @@
+OK
+theia@theiadocker-u2kgmf2rsd8:/home/project/final_project$ python3 -c "from EmotionDetection.emotion_detection import emotion_detector; print(emot
+ion_detector('I am very angry'))"
+{'anger': 0.97299534, 'disgust': 0.007920562, 'fear': 0.021403823, 'joy': 0.0111511685, 'sadness': 0.047718644, 'dominant_emotion': 'anger'}
+theia@theiadocker-u2kgmf2rsd8:/home/project/final_project$ sed -i 's/from EmotionDetection import emotion_detector/from EmotionDetection.emotion_d
+etection import emotion_detector/' /home/project/final_project/test_emotion_detection.py && cd /home/project/final_project && python3 test_emotion
+_detection.py
+test_empty_text (__main__.TestEmotionDetection)
+Invalid text should produce None values, not invented scores. ... ok
+test_required_emotions (__main__.TestEmotionDetection)
+The Watson endpoint should identify each required emotion. ... ok
+----------------------------------------------------------------------
+Ran 2 tests in 0.689s
+OK
+theia@theiadocker-u2kgmf2rsd8:/home/project/final_project$
